@@ -37,3 +37,5 @@ go = ( id, str ) ->
 
 $("#left .form-control").on "change input paste keyup", ->
   go $(@).attr("id"), $(@).val()
+
+console.log "...loaded."

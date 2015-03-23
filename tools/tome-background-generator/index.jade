@@ -1,0 +1,24 @@
+.container
+  .row
+    h1 TGDMB Tome's Background Formatter
+    form#left.col-sm-6
+      .form-group
+        label(for="bkgd_name") Name of Background
+        input(class="form-control" id="bkgd_name" placeholder="BACKGROUND... of doooom")
+
+      .form-group
+        label(for="bkgd_quote") Quote for Background
+        input(class="form-control" id="bkgd_quote" placeholder="My quote is witty, for *I* am witty")
+
+      .form-group
+        label(for="bkgd_effect") Effect of Background
+        textarea.form-control(rows=4 id="bkgd_effect" placeholder="You come from a land of DOOM! And are tasked with SPREADING DOOM!\n Why? FOR THE SAKE OF DOOM!")
+        p.help-block helper text
+    
+    // column 2 : right side
+    .col-sm-6
+      .form-group
+        label(for="output") copy/paste for forum:
+        textarea.form-control(rows=4 id="output" placeholder="Stuff")
+ 
+ script( href="./tome-background-generator.js" )

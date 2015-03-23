@@ -30,7 +30,7 @@ go = ( id, str ) ->
     if formIn[k]? and formIn[k] != ""
       out += formIn[k]
 
- return output out + "[hr]\n"
+  return output out + "[hr]\n"
 
 # trigger content refresh when textarea changes
 #$(".form-control").on "change input paste keyup",

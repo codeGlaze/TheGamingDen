@@ -20,7 +20,7 @@
         case "bkgd_effect":
           return "\n[b]Effect:[/b] " + str + "\n";
         default:
-          return str;
+          return str(+"\n");
       }
     }
   };

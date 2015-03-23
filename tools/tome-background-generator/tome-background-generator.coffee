@@ -11,7 +11,7 @@ format = (id, str) ->
       when "bkgd_name" then  "[b]"+str+":[/b] "
       when "bkgd_quote" then  "\"[i]"+str+"[/i]\" \n"
       when "bkgd_effect"  then  "\n[b]Effect:[/b] "+str+"\n"
-      else str
+      else str +"\n"
   
 output = ( str ) ->
   # count number of lines from form

@@ -15,6 +15,9 @@ html
       | Please <a href="http://browsehappy.com/">upgrade your browser</a>
       | to improve your experience.
     <![endif]-->
+
+    //- end header, start actual content
+
     .container
       .row
         h1 TGDMB Tome's Background Formatter
@@ -28,6 +31,10 @@ html
             input(class="form-control" id="bkgd_quote" placeholder="My quote is witty, for *I* am witty")
 
           .form-group
+            label(for="bkgd_desc") Description for Background
+            input(class="form-control" id="bkgd_desc" placeholder="I was there. It was crazy. Now I'm special.")
+
+          .form-group
             label(for="bkgd_effect") Effect of Background
             textarea.form-control(rows=4 id="bkgd_effect" placeholder="You come from a land of DOOM! And are tasked with SPREADING DOOM!\n Why? FOR THE SAKE OF DOOM!")
             p.help-block helper text
@@ -38,7 +45,8 @@ html
             label(for="output") copy/paste for forum:
             textarea.form-control(rows=4 id="output" placeholder="Stuff")
  
+    //- add in footer JS 
     script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js')
-    script window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')
+    //-script window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.js')
     script( src="./tome-background-generator.js" )

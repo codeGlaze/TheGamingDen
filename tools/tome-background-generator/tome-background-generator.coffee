@@ -1,7 +1,8 @@
 formIn = 
-	bkgd_name : ""
-	bkgd_quote : ""
-	bkgd_effect : ""
+  bkgd_name : ""
+  bkgd_quote : ""
+  bkgd_desc : ""
+  bkgd_effect : ""
 
 format = (id, str) ->
   if str == "" then str else
@@ -9,7 +10,7 @@ format = (id, str) ->
     switch id
       when "bkgd_name" then  "[b]"+str+":[/b] "
       when "bkgd_quote" then  "\"[i]"+str+"[/i]\" \n"
-      when "bkgd_effect" then  "\n[b]Effect:[/b] "+str+"\n"
+      when "bkgd_effect"  then  "\n[b]Effect:[/b] "+str+"\n"
       else str
   
 output = ( str ) ->
@@ -22,11 +23,11 @@ output = ( str ) ->
   return
   
 go = ( id, str ) ->
-	out = ''
-	for k,v of formIn
-		if id == k then formIn[k] = format id, str
-		console.log "ID:: "+id+"FI: "+formIn[k]+" s: "+str
-		if formIn[k]? and formIn[k] != ""
+  out = ''
+  for k,v of formIn
+    if id == k then formIn[k] = format id, str
+    console.log "ID:: "+id+"FI: "+formIn[k]+" s: "+str
+    if formIn[k]? and formIn[k] != ""
       out += formIn[k]
 
  return output out + "[hr]\n"
@@ -37,5 +38,3 @@ go = ( id, str ) ->
 
 $("#left .form-control").on "change input paste keyup", ->
   go $(@).attr("id"), $(@).val()
-
-console.log "...loaded."

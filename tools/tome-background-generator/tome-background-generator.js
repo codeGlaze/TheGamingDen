@@ -4,6 +4,7 @@
   formIn = {
     bkgd_name: "",
     bkgd_quote: "",
+    bkgd_desc: "",
     bkgd_effect: ""
   };
 
@@ -32,8 +33,9 @@
   };
 
   go = function(id, str) {
-    var k, out, v;
+    var k, out, v, _results;
     out = '';
+    _results = [];
     for (k in formIn) {
       v = formIn[k];
       if (id === k) {
@@ -41,11 +43,15 @@
       }
       console.log("ID:: " + id + "FI: " + formIn[k] + " s: " + str);
       if ((formIn[k] != null) && formIn[k] !== "") {
-        out += formIn[k];
+        _results.push(out += formIn[k]);
+      } else {
+        _results.push(void 0);
       }
     }
-    return output(out + "[hr]\n");
+    return _results;
   };
+
+  return output(out + "[hr]\n");
 
   $("#left .form-control").on("change input paste keyup", function() {
     return go($(this).attr("id"), $(this).val());

@@ -80,7 +80,5 @@
     };
     return init(str);
   };
-  return {
-    tex2md: tex2md
-  };
+  return window.tex2md;
 })();

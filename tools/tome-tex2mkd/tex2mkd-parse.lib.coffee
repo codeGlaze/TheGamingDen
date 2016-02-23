@@ -90,4 +90,5 @@ do ->
 
   #return
   # { tex2md : tex2md }
-  window.tex2md
+  if not window.tex2md then window.tex2md = tex2md
+  return

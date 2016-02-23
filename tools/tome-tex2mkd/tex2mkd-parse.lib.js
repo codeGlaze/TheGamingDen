@@ -80,5 +80,7 @@
     };
     return init(str);
   };
-  return window.tex2md;
+  if (!window.tex2md) {
+    window.tex2md = tex2md;
+  }
 })();

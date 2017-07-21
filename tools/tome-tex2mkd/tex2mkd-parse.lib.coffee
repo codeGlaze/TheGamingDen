@@ -41,6 +41,24 @@ do ->
         .replace( /(?!.*\()\[(.*)\]/i, "[$1](http://dnd-wiki.org/wiki/SRD:$1)" )
       return str
 
+    # TODO move to bclass function
+    bab = ( str ) ->
+      r = ''
+      if str == "goodbab" then r = "Full"
+      else if str == "modebab" then r = "Medium"
+      else return "Poor"
+
+      return r
+
+    bsb = ( str ) ->
+      r = ''
+      if str == "goodfor" || str == "poorfor" then r = "\n**Fortitude: **"
+      else if str == "goodref" || str == "poorref" then r = "**Reflex: **"
+      else r = "**Will: **"
+
+      return r
+
+    # TODO: clean up complexity
     formatStr = ( str ) ->
       ret = ""
       sca = str.charAt(0)
@@ -64,6 +82,15 @@ do ->
           when "item" #replace TeX with asterix
             #re = /\\item/i
             str = str.replace /\\item/i, "\n * "
+            ret += str
+          when "goodbab", "modebab", "poorbab"
+            str = "**BAB: **" + bab( found ) + "\n"
+            ret += str
+          when "goodfor", "goodref", "goodwil"
+            str = bsb( found ) + "Good\n"
+            ret += str
+          when "poorfor", "poorref", "poorwil"
+            str = bsb( found ) + "Poor\n"
             ret += str
           else  #append string as-is
             str += ":: ELSE!" + "\n"
@@ -92,3 +119,5 @@ do ->
   # { tex2md : tex2md }
   if not window.tex2md then window.tex2md = tex2md
   return
+
+bclass = ( x ) ->

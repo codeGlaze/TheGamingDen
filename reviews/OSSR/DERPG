@@ -1,0 +1,145 @@
+> DrPraetor recently mentioned he wanted to see this, and I have the book and nothing particular to do at the moment, so here goes.
+
+-[Angelfromanotherpin](http://tgdmb.com/profile.php?mode=viewprofile&u=181)
+
+![](http://i.imgur.com/ZsJdnFh.png)
+
+A lot of text has been processed regarding the influence that Vance's Dying Earth stories have had on D&D and fantasy, and I'm not going to particularly try to add to that here. If you'd like to know more about the stories, [this](http://ferretbrain.com/articles/article-905) is a pretty good overview of them. This is about the 2001 Pelgrane Press RPG.
+
+
+**0: Cover through Credits**
+
+You can see the cover above. It's nice art, but I don't think it sets the proper tone.
+
+Page 1 is an excerpt from Cugel's Saga, overlaid on a picturesque landscape presumably depicting the River Isk, mentioned in the excerpt. The text is one of Cugel's humorous misadventures, notable for omitting any sense of his competence. I mean, Cugel is mostly just an ordinary fuck-up, but this story is about him failing at a minimum-wage job so badly that an angry mob drives him out of town.
+
+Page 2 is a picture of a couple of not-quite-cows in front of a ruined keep which has a giant telescope and also a satellite dish. That's a very nice visual to demonstrate the quiet strangeness and far-future-fantasy of the world. It's part of a spread with Page 3, which reiterates the title and main credits, and adds copyright info.
+
+Page 4 has a grainy picture of a grumpy-looking Jack Vance on it, next to three paragraphs which are a jumble of biography, bibliography, flattery, and shilling for the game. That is either bad editing or [i]the best[/i] editing, because its incoherence has a distinctly Vancian-roguish-blather flavor to it.
+
+At the bottom of the page are the authorial credits. Robin Laws is principal designer, who calls out his work on Feng Shui, Glorantha: Hero Wars, and Pantheon. John Snead did the magic rules, and his other credits are on Trinity, Aberrant, and the ST:TNG RPG, so hopes are [i]not[/i] high. Peter Freeman apparently contributed all of three sidebars and still gets his name on the cover, so I'll keep an eye out and see if they're any good.
+
+Page 5 is contents and complete credits. Vance is listed as 'consultation and inspiration,' so apparently they at least talked to him. There's one name under 'editing' and two names under 'magic rules editing,' which compounds my concerns about Snead's contributions. Nine names under 'additional material,' presumably contributing less than three sidebars each and so not making the cover. Big pile of playtester credits, although I refuse to believe that 'David Burckle' and 'David Burckle**y**' are distinct people.
+
+
+**1: Getting Started**
+![](http://i.imgur.com/gOzB5Pz.jpg)
+
+Ostensibly [i]'a rules overview for novices and veterans alike. Essential for cogent discussion, yet perforce cursory and plagued by a rebarbative generality,'[/i] this chapter is, in reality, a mess. It attempts to introduce general RPG concepts to new players, and specific-to-this-game concepts to veteran players, and is not good at either.
+
+The framing scenario for the rule examples starts first, like a weird start-of-chapter flash fiction, except that all the proper nouns are bolded like these are important names to know instead of meaningless test dummies. Then the meta-level scenario where your friend Alex is GMing you through the framing scenario is introduced, and that's completely backwards for an introduction to RPGs. [i]First[/i] you meet the GM, [i]then[/i] they explain some important game terms, [i]then[/i] the intro scenario is narrated for you to engage with now that you have some goddamn idea what's going on.
+
+You want an idea of how user-unfriendly this chapter is? Check this out. 'You will play this character, Kurnio.'
+[quote]**Kurnio**
+Persuade (Eloquent) 8, Rebuff
+(Contrary) 8, Attack (Finesse) 8,
+Defense (Sure-Footedness) 8,
+Health 6, Appraisal 2, Athletics 3,
+Concealment 3, Etiquette 2,
+Gambling 6, Living Rough 2,
+Pedantry 2, Perception 4, Quick
+Fingers 2, Scuttlebutt 1, Stealth 2
+Possessions: Amulet of
+Virtuous Shielding 4, feathered
+tricorn hat 2, rapier 3, deck of
+cards (marked) 1, loaded dice 1
+Temptations: Indolence 3,
+Rakishness 6, Gourmandism 2[/quote]
+That is [i]far[/i] too much crap to drop on a newby before explaining what any of it might mean. Not to be unfair, the book does immediately pick up after that with a decent explanation, but the order that information is presented in [i]matters[/i]. It's the difference between a novice feeling prepped and engaged, and feeling like they're playing catch-up in a baffling ordeal. One of those does not make you want to keep reading.
+
+We also get an intro to the resolution mechanic, and hoo boy. You try a thing, and roll 1d6. 1 is a crit-fail, 2-3 are regular fail, 3-4 are regular success, 6 is a crit success. If you don't like your roll and have points in an appropriate ability, you can spend a point to re-roll, or 3 points if a critical was involved. Getting a crit success also adds 2 points to the relevant ability's point pool (not the permanent rating).
+
+Opposed tests are a little more involved. A successful roll against you can be negated with a successful defense roll, but the attacker can spend ability points to re-roll, essentially starting the attack/defense procedure over again. This is going to turn any significant opposed action into a draggy pile of rerolls. I can see it maybe making combat go slightly faster because you're essentially doing a giant pile of attack/defense actions at once without putting any combat round accounting in the middle, but for any other situation it's needlessly slow.
+
+
+**Taglines** are also apparently a thing in this game. The idea is that the GM hands you some prewritten Vance-style lines at the start of the session, and you get extra XP if you use them amusingly during the session. It's not the worst idea for injecting some of the more elaborate wordplay that's a signature of the series, although I'd have gone with a reward like an ability pool refresh instead, because XP awards are going to lead to disparate character power and/or players spending more brainpower on this minor aspect of the game than it merits.
+
+
+Here's another thing that's half-assed and annoying. There's a list of four 'Important Matters to Forget,' things you may be expecting from other RPG experiences, but which aren't part of this game. It seems like a good thing to include, to set appropriate expectations. Except that the list is actually of things to [i]remember[/i], not to forget. Colin Beaver edited this, and he rolled 3 or lower.
+
+The list, by the way, is this:
+• Fighting is a mistake, run now, cowardly revenge later.
+• Characters are all pretty much the same.
+• Killing is discouraged.
+• Try to enjoy your character's screw-ups.
+
+There's a lot of implication that the game is about the kind of activities seen in the excerpt on page 1: disreputable people fucking up in humorous ways (which might explain the amount of TOON in the resolution system). So far, it's not explicit, which is a problem, because if that's the intended core experience, it really needed to be unambiguously communicated in the introductory chapter. It's definitely an experience a lot of people are interested in, but it's also an experience a lot of people are **not** going to be interested in.
+
+On the other hand, if that isn't the intended core experience, there's no indication what might be instead. You can read the front, back, and first chapter of this book and not have any idea what you're supposed to [i]do[/i] in the game except 'pratfall, maybe?'
+
+Compare the very first sentences from the D&D 3e PHB:
+![](http://i.imgur.com/wfX0hJQ.png)
+[i]Boom. Premise established.[/i]
+
+This has not been a good start. Up next is Characters.
+
+[hr]
+
+**2: Character**
+
+![](http://i.imgur.com/OOue5x3.jpg)
+
+This chapter begins by telling the reader that sometimes the book uses obscure or overly-elaborate language, to emulate the source material, and they shouldn't be afraid to [consult a dictionary](http://i.imgur.com/Xo01CTE.png). Vance was actually really good at using his style to be comprehensible despite convoluted and/or arcane wordage, and if Laws wasn't confident that he had that talent, it would have been better and more professional to prioritize communicating with the audience over amusing himself with wordplay. Especially since the book is peppered with quotes from the source material anyway, which serve as examples.
+
+The chapter's tagline is: '[i]Now, with trifling effort, bring forth your adventurer![/i]' I really hope that's intended to be ironic, because chargen is a fourteen-step point-allocation procedure, with a secret extra 'Step Last' at the end. Some of those steps are bullshit filler like 'get a character sheet,' but it's still not trifling by chargen standards.
+
+The first important thing to note is that in Step 2 you find out how many points you have to spend, depending on the 'level' of the game. The power levels are Cugel, Turjan, and Rhialto, named for the protagonists they're intended to emulate. Each of those characters has distinctly different adventures, not just in power level, but also in tone. Spoiler: the higher power levels got a sourcebook each to actually implement them, because this core book apparently does a piss-poor job with them.
+
+That actually explains the vagueness of the premise from the previous chapter. Either Laws wrote the Cugel-level game and then half-assedly cobbled the other levels together, or he tried for all three and only succeeded on one, but either way this book is really just the Cugel mode pretending to also be two other modes. So the book can't just say 'this is a game about the amusing failures of fantasy rogues,' because that would exclude the other modes it's pretending to support.
+
+That lack of commitment also hits the chargen pretty hard. I mean, the actual complete game in this book is a low-comedy failfest where the characters are all supposed to be pretty similar. Why on Earth is chargen multi-stage point buy? This screams for a big pile of tables which procedurally generate Warhammer Fantasy-style undignified random flavor onto the samey mechanical skeleton that all PCs will be working with anyway. (I think Turjan-level play is the only one that might benefit from point-buy.)
+
+It's especially obvious, because there actually is randomness in the point-buy system. There are about five times when you get points for letting a die roll decide a part of your character, or to put it another way, have to pay points to guarantee your preferred selection. It's a point-buy system where you are charged more for having a concept and trying to build towards it! Think about that.
+
+A few last points:
+• The game has individual weapon proficiencies for some reason, which is pretty bad to begin with, but one of them is 'a found object,' and I don't even how that's supposed to work, what if you find a rapier?
+• Literally six of the abilities in this game are 'don't express X vice.' On the one hand I kind of approve that by default everyone is five of arrogant, greedy, gluttonous, lazy, nitpicking, and lecherous (you can roll to be immune to one). On the other hand, it's kind of a lot to keep track of and the Resist Rakishness ability has unclear interactions with the Seduction ability. I feel like it would be more empowering to incentivize players to pursue these vices (with pool refreshes or something) rather than go the 'spend character resources or be automatically compelled' route.
+• The example of character creation tallies its points incorrectly.
+
+
+**3: Essential Rules**
+
+![](http://i.imgur.com/3MoowMp.png)
+
+Great Googly Moogly, this chapter actually opens with a fucking tribute to rule zero, or as it's called here 'The Overarching Rule of Efficacious Blandishment,' although I'm going to call it 'The Omnipresent Inveigling Fellatio,' or OIF for short. The book even fucking tells you to use the OIF to make Oberoni defenses of this game on the internet. I think it's meant to be a joke, but I don't think it was supposed to be in such bad taste as it is.
+
+Anyway, the tagline for this chapter is: '[i]Mastery of these concepts permits fundamental competence in all likely endeavors[/i],' and the content of this chapter is increasing the complexity of the game system substantially. I'm certainly not opposed to a reasonable amount of elaboration on what was a very bare-bones resolution mechanic, so let's see how it do.
+
+The first thing we learn is that each individual result on the d6 is actually its own specific level of success and failure. This is mostly flavor, but also an excuse for Laws to write 'Quotidian Failure' in most of the examples of play. I think the game would be better without this, but I don't care that much.
+
+The rest actually seems pretty okay? There are a lot of ways to fiddle with the resolution mechanic, and although some of them are unclear (what circumstances justify die roll modifiers as opposed to which justify ability pool modifiers?) and some seem incoherent (time pressure can limit the number of re-rolls, but you can always buy more actions?) most are clear and also address real concerns of play, like ganging up and extended activity. In light of some of my [previous](http://tgdmb.com/viewtopic.php?t=55241) [reviews](http://tgdmb.com/viewtopic.php?t=55544), I'm going to mention that the initiative mechanic seems particularly sane.
+
+Chapter Three: not bad, except for the OIF bullshit. Up next is Abilities in Practice.
+
+[hr]
+
+**4: Abilities in Practice**
+
+![](http://i.imgur.com/I6cA9ND.jpg)
+
+This chapter opens with one of the three 'sidebars' that got Peter Freeman's name on the cover, and I am disappoint. First, it's not actually a sidebar, it's the main text on the title page of chapter four. Second, it's a completely unmemorable and apropos-of-nothing flash fiction. It serves no purpose, and its use here is inconsistent with previous chapter opening text. At a guess, it's to add more Dying Earth flavor to the book, but why you'd give someone an author credit to fart out some DE-evoking text when you plainly have license to (and do) quote the actual source material at will is beyond me.
+
+The chapter's tagline is: '[i]The vivid panoply of adventurous activity found here will exhaust the most active curiosity[/i],' which might even be accurate, just not in a good way. What follows is some of the most exhausting reading I've ever done.
+
+The bulk of the chapter is devoted to expounding on all the non-Magic abilities, and here is where the game sheds its pretense of simplicity. To begin with, [i]every[/i] goddamn ability has its own method of refreshing its pool, except for the 'core four' (Persuade, Rebuff, Attack, Defense), each of which has [i]six[/i], one per style. The sample character Kurnio has [i]sixteen[/i] abilities, and must therefore remember approximately sixteen refresh triggers. That's the kind of idea that only belongs in a first draft, and yet here we are.
+
+The best that can be said is that at least most of the refreshes require significant amounts of rest and/or downtime, so you can safely mark most of them 'consult book when not adventuring.' This is really harsh when compared to the rate at which people are supposed to go through their pools. Best example: literally every Defense style basically requires you to take an entire day off to refresh. Not just the 'good night's sleep' that shows up in a number of refresh requirements; an entire day.
+
+Furthermore, every style of the core four Abilities has two to four modifiers. I'm on the fence as regards distinguishing the styles mechanically, but firmly against an implementation that gives people at minimum eight situational modifiers out of the gate, especially when there is room for precisely [i]none[/i] of them on the official character sheets.
+
+As this is also the combat chapter, we get a list of various weapons, most of which also have overly complex procedures to distinguish them, for which there is no room on the character sheet. The procedures mostly aren't even good wargaming, just dickishness.
+[quote][i]Axe[/i]
+**Advantage:** Your opponent’s Health rolls against axe hits suffer a levy of 1.
+**Disadvantages:** You must have at least 4 Attack points to properly wield an axe. When you drop below that number, you cannot put the proper strength behind it. You suffer a levy of 1 on all Attack rolls, and no longer apply a levy to your opponent’s Health rolls on successful hits. If your Attack style is Strength, you can wield the axe properly until you sink below 2 Attack points.
+An axe worn in public signifies that you are a killer or dangerous lunatic bent on destruction. You will treated as such. Ordinary folk will shun you; local authorities will attempt to apprehend you.[/quote]
+Ranged combat has specific size and range modifiers (and a range table for the weapons) that, again, seems badly out of place in the kind of game this looked like it was trying to be before this chapter. Also it, like many places in this chapter, implements a lot of treating one kind of success or failure as a different kind, as though dice modifiers weren't introduced in chapter 3. It's like the two chapters were written by people who didn't talk to each other much, except that they're just one person so I don't know what to say.
+
+One bright spot is the Running Away procedure, which is surprisingly elegant and sane. As your action, you roll Defense, and your opponent can try to oppose it with their Attack. If you succeed, you break away clean, if you fail, you break away but take a hit, if you critfail you get hit and are still in combat. The chase is then a simple opposed Athletics test. Simple, clean, good.
+
+The section on Health and Hazards starts good and gets very bad. The basic mechanic where when you get 'an injury' you roll Health to see if it's superficial (and ignored) or serious, that's okay. Getting seriously hurt once [i]sucks[/i], twice puts you out of action, third time is dying, also okay - I think it encourages an appropriate level of caution/cowardice while also making PCs pretty resilient.
+
+Swimming is absurdly difficult for no reason. Fire has a '% of body exposed' table for no good reason; I get that it's a [i]thing[/i], but I have no idea why it's a thing you'd want to include in any mode of this game. Poisons and diseases have elaborate entries like this was GURPS. Worst of all, recovering from injuries is way too fucking slow. That second wound seriously sets your recovery time to weeks of bed rest, unless you have access to a really good doctor; even the first wound is going to make you mostly-useless for entire days. If PCs come out of a fight with different levels of injury, that's a game-buster.
+
+Overall, this chapter turns what was a simple and elegant game engine into a pile of baffling hash for... no gain. I kind of like the core system as described in the previous chapter, and where this chapter is like that one, it's good. Unfortunately most of this chapter seems to be about injecting mechanics for their own sake until the patient bursts like a water balloon.
+
+Up next is Magic. My expectations for Snead's work were pretty low, but Laws has proved unexpectedly terrible, so maybe it could be okay, at least by comparison?

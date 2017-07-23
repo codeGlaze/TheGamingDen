@@ -1,7 +1,7 @@
 ### OSSR: Player's Guide to the Sabbat  
 # Chapter 3: Character Creation
 
-![https://i.makeagif.com/media/10-12-2015/D4MQCK.gif](https://i.makeagif.com/media/10-12-2015/D4MQCK.gif)  
+![https://i.makeagif.com/media/10-12-2015/D4MQCK.gif](https://github.com/codeGlaze/TheGamingDen/blob/master/reviews/OSSR/img/PGttS0401.gif)  
 _Hopefully like that._
 
 Our musical accompaniment is going to be [The World is Yours](https://www.youtube.com/watch?v=lk2-bgwA0Ro). Firstly because there's no musical suggestions in this chapter. And secondly because Arch Enemy makes a much better pitch for Nietzsche's Master Morality than this fucking book does.

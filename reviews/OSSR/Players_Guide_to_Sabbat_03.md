@@ -1,5 +1,5 @@
-<u>**<span style="font-size:26%">OSSR: Player's Guide to the Sabbat</span>**</u>  
-**<span style="font-size:24%">Chapter 2: Running With The Sabbat</span>**
+### OSSR: Player's Guide to the Sabbat
+# Chapter 2: Running With The Sabbat
 
 ![https://cdn.playbuzz.com/cdn/70c16033-8a50-4ac5-a078-7fc9d92dde3f/2b73158e-e7a6-4dd3-8a4d-19c96e364e13_560_420.jpg](https://cdn.playbuzz.com/cdn/70c16033-8a50-4ac5-a078-7fc9d92dde3f/2b73158e-e7a6-4dd3-8a4d-19c96e364e13_560_420.jpg)  
 _There's a context for this, but meh... fuggit._

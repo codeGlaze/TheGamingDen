@@ -1,8 +1,18 @@
-[quote="Ancient History"]
+// Example of what's being found to replace
+// REGEX to find/capture
+// Replace string
 
+[quote="Ancient History"]
+\[quote="(.*)"\]
 
 [align=center]**AncientH:**[/align]
-#### AncientH:
+\[align=center\]\*\*AncientH:\*\*\[\/align\]
+#### $1
 
-[align=center]**FrankT:**[/align]
-#### FrankT:
+<u>**<span style="font-size:26%">OSSR: Player's Guide to the Sabbat</span>**</u>
+\<u\>\*\*\<span style="font-size:26%"\>(.*)\<\/span\>\*\*\<\/u\>
+### $1
+
+**<span style="font-size:24%">Chapter 2: Running With The Sabbat</span>**
+\*\*\<span style=\"font-size:24%\"\>(.*)\<\/span\>\*\*
+## $1

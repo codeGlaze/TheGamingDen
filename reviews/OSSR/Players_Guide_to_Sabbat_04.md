@@ -1,4 +1,5 @@
-### OSSR: Player's Guide to the Sabbat  
+### [OSSR: Player's Guide to the Sabbat - Part 3](http://tgdmb.com/viewtopic.php?p=495422&sid=1533899dd0a53e9d443479bc8c6d2890#495422)
+> by [AncientHistory](http://tgdmb.com/profile.php?mode=viewprofile&u=1070&sid=16f3ce38883939b7dad0486636b6b815) and [Frank Trollman](http://tgdmb.com/profile.php?mode=viewprofile&u=9)
 # Chapter 3: Character Creation
 
 ![https://i.makeagif.com/media/10-12-2015/D4MQCK.gif](https://github.com/codeGlaze/TheGamingDen/blob/master/reviews/OSSR/img/PGttS0401.gif)  

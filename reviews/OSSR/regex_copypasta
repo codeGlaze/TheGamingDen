@@ -5,6 +5,9 @@
 [quote="Ancient History"]
 \[quote="(.*)"\]
 
+\[spoiler\](.*)\[\/spoiler\]
+$1
+
 [align=center]**AncientH:**[/align]
 \[align=center\]\*\*AncientH:\*\*\[\/align\]
 #### $1

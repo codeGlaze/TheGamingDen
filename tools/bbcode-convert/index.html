@@ -62,8 +62,8 @@
     </div>
     <footer>
       <script>
-        var header = "# [OSSR]D2: Shrine of the Kuo-Toa";
-        header += "\n" + "_As reviewed by: Ancient History_";
+        var header = "# Nightlife (1990)";
+        header += "\n" + "_As reviewed by: Frank Trollman";
         header += "\n" + "## Part 1\n\n";
         
         var replaceList = [
@@ -73,7 +73,9 @@
             [ /[\[]quote[\]](.*)/gm, `>$1`  ], //find quotes without names
             [ /([\[]\/?(quote|size|spoiler)[\]])/g, '<br>\n' ], //delete the end-quote tags and add a new line
             [ /(.*)\n(.*)/g, `$1<br>$2` ],
-            [ /[\[]size=16[\]]/g, `#### ` ]
+            [ /[\[]hr[\]]/g, '---' ],
+            [ /[\[]size=(18)[\]]/g, `### ` ],   // large header
+            [ /[\[]size=(16|14)[\]]/g, `#### ` ] //medium header
         ]
         
         document.getElementById("convertBB").onclick = function(event) {

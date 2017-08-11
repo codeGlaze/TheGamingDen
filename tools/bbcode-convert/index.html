@@ -71,7 +71,7 @@
             //[ /[\[]quote[\]](.*)[\[]\/quote[\]](?=[\s]*?)/g, `**$1 said...**<br>>$2` ], //find quotes with names //find quotes | https://stackoverflow.com/questions/26307794/js-regex-replace-multiple-instances-in-a-string
             [ /[\[]quote\=\"(.*)\"[\]](.*)/gm, `**$1 said...**<br>>$2` ], //find quotes with names
             [ /[\[]quote[\]](.*)/gm, `>$1`  ], //find quotes without names
-            [ /([\[]\/(quote|size)[\]])/g, '<br>\n' ], //delete the end-quote tags and add a new line
+            [ /([\[]\/?(quote|size|spoiler)[\]])/g, '<br>\n' ], //delete the end-quote tags and add a new line
             [ /(.*)\n(.*)/g, `$1<br>$2` ],
             [ /[\[]size=16[\]]/g, `#### ` ]
         ]

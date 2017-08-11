@@ -1,0 +1,135 @@
+doctype html
+html(class="no-js" lang="")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="x-ua-compatible" content="ie=edge")
+        title Page Title
+        meta(name="description" content="")
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+
+        style(type="text/css").
+            textarea {
+                width: 100;
+            }
+            div {
+              padding: 20px;
+              margin: 20px;
+              background: #eee;
+            }
+            .col { 
+                margin: 0;
+                float:left;
+                width: 40%; }
+            .out {
+                float: left;
+                white-space: pre-wrap;  /*preserves paragraph breaks*/
+            }
+            
+            .out p {
+                -webkit-user-select: all;  /* Chrome all / Safari all */
+                -moz-user-select: all;     /* Firefox all */
+                -ms-user-select: all;      /* IE 10+ */
+                user-select: all;          /* Likely future */  
+            }
+            
+        
+        //  link(rel="apple-touch-icon" href="apple-touch-icon.png")
+          link(rel="stylesheet" href="cs/style.css")
+          script(src="js/vendor/modernizr-2.8.3.min.js")
+        script(src="js/baybay.js")
+        script(src="js/to-markdown.js")
+    body
+        //
+            [if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]
+
+        // Add your site or application content here
+        textarea#input
+        button#convertBB Go!
+        
+        br
+        div.col HTML
+            hr
+            #outputHTML.out
+                p test this
+        div.col MKDN
+            hr
+            div#outputMKDN.out
+          
+        footer
+            script.
+                var header = "# [OSSR]D2: Shrine of the Kuo-Toa";
+                header += "\n" + "_As reviewed by: Ancient History_";
+                header += "\n" + "## Part 1\n\n";
+            
+                var replaceList = [
+                    //[ /[\[]quote\=\"(.*)\"[\]]/g , `####$1\n` ],
+                    //[ /[\[]quote[\]](.*)[\[]\/quote[\]](?=[\s]*?)/g, `**$1 said...**<br>>$2` ], //find quotes with names //find quotes | https://stackoverflow.com/questions/26307794/js-regex-replace-multiple-instances-in-a-string
+                    [ /[\[]quote\=\"(.*)\"[\]](.*)/gm, `**$1 said...**<br>>$2` ], //find quotes with names
+                    [ /[\[]quote[\]](.*)/gm, `>$1`  ], //find quotes without names
+                    [ /([\[]\/(quote|size)[\]])/g, '<br>\n' ], //delete the end-quote tags and add a new line
+                    [ /(.*)\n(.*)/g, `$1<br>$2` ],
+                    [ /[\[]size=16[\]]/g, `#### ` ]
+                ]
+                
+                document.getElementById("convertBB").onclick = function(event) {
+                    var area = document.getElementById("input");
+                    str = mreplace( replaceList, window.baybay.parse( area.value ) ) // here we got value
+                    
+                    markout( str );
+                    //alert( str + "/n" + mstr + " i did it" );
+                }
+                
+                //https://stackoverflow.com/questions/2501435/replacing-multiple-patterns-in-a-block-of-data
+                
+                function markout ( str ) {
+                    document.getElementById('outputHTML').innerHTML = "<p>" + str + "</p>";
+                    document.getElementById('outputMKDN').innerHTML = "<p>" + header + toMarkdown( str, { gfm: true } ) + "</p>";
+                }
+                
+                function mreplace (replacements, str) {
+                  let result = str;
+                  for (let [x, y] of replacements)
+                    result = result.replace(x, y);
+                  return result;
+                }
+
+                let input = 'Hello World what a beautiful day';
+                /*
+                let output = mreplace ([
+                  //replace static strings
+                  ['day', 'night'],
+                  // use regexp and flags where you want them: replace all vowels with nothing
+                  [/[aeiou]/g, ''],
+                  // use captures and callbacks! replace first capital letter with lowercase 
+                  [/([A-Z])/, $0 => $0.toLowerCase()]
+
+                ], input);
+                
+
+                console.log(output);*/
+                // "Bye Universe what a beautiful day"
+                
+                function tgdRemove( str ) { //remove quote tags and such                    
+                    //https://stackoverflow.com/questions/15604140/replace-multiple-strings-with-multiple-other-strings
+                    
+                    /*//https://regex101.com/
+                    const regex = /[\[]quote\=\"(.*)\"[\]]/g;
+                    const subst = `####$1\n`;
+
+                    // The substituted value will be contained in the result variable
+                    const result = str.replace(regex, subst);
+
+                    console.log('Substitution result: ', result);
+                    return result;*/
+                }
+
+//-        script(src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js")
+        script  window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')
+        script(src="js/plugins.js")
+        script(src="js/main.js")
+
+        // Google Analytics: change UA-XXXXX-Y to be your site's ID.
+        script  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date; ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        script(src="https://www.google-analytics.com/analytics.js" async defer)
